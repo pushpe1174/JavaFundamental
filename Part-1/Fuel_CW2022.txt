@@ -1,0 +1,24 @@
+	 Remaining Fuel stock is 600 L
+	 Fuel Pump 1 Queue : 
+		 Pos 1 : a
+		 Pos 2 : s
+		 Pos 3 : No-one
+		 Pos 4 : No-one
+		 Pos 5 : No-one
+		 Pos 6 : No-one
+
+	 Fuel Pump 2 Queue : 
+		 Pos 1 : No-one
+		 Pos 2 : No-one
+		 Pos 3 : f
+		 Pos 4 : No-one
+		 Pos 5 : No-one
+		 Pos 6 : e
+
+	 Fuel Pump 3 Queue : 
+		 Pos 1 : No-one
+		 Pos 2 : No-one
+		 Pos 3 : No-one
+		 Pos 4 : No-one
+		 Pos 5 : No-one
+		 Pos 6 : d
