@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.MenuButton?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="325.0" prefWidth="650.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.part2.HomeController">
+   <children>
+      <Pane layoutX="-5.0" layoutY="-7.0" prefHeight="340.0" prefWidth="662.0" style="-fx-background-color: #2d3436;">
+         <children>
+            <Label layoutX="236.0" layoutY="18.0" text="Fuel System 2022" textFill="#55efc4">
+               <font>
+                  <Font name="System Bold" size="24.0" />
+               </font>
+            </Label>
+            <MenuButton layoutX="551.0" layoutY="73.0" mnemonicParsing="false" style="-fx-background-color: #dfe6e9;" text="View data">
+              <items>
+                <MenuItem mnemonicParsing="false" onAction="#viewWaitingOnclick" text="Waiting List" />
+                <MenuItem fx:id="pump1" mnemonicParsing="false" onAction="#viewPump_1click" text="Pump 1" />
+                  <MenuItem fx:id="pump2" mnemonicParsing="false" onAction="#viewPump_2click" text="Pump 2" />
+                  <MenuItem fx:id="pump3" mnemonicParsing="false" onAction="#viewPump_3click" text="Pump 3" />
+                  <MenuItem fx:id="pump4" mnemonicParsing="false" onAction="#viewPump_4click" text="Pump 4" />
+                  <MenuItem fx:id="pump5" mnemonicParsing="false" onAction="#viewPump_5click" text="Pump 5" />
+              </items>
+            </MenuButton>
+            <TableView fx:id="myTable" layoutX="33.0" layoutY="122.0" prefHeight="170.0" style="-fx-background-color: #dfe6e9;">
+              <columns>
+                  <TableColumn fx:id="pump" prefWidth="100.0" text="Pump" />
+                <TableColumn fx:id="pos" prefWidth="100.0" text="Position" />
+                <TableColumn fx:id="fname" prefWidth="100.0" text="F - Name" />
+                  <TableColumn fx:id="sname" prefWidth="100.0" text="S - Name" />
+                  <TableColumn fx:id="vno" prefWidth="100.0" text="V- No" />
+                  <TableColumn fx:id="rfuel" prefWidth="100.0" text="R- Fuel" />
+              </columns>
+            </TableView>
+            <TextField fx:id="textField" layoutX="33.0" layoutY="73.0" />
+            <Button layoutX="208.0" layoutY="73.0" mnemonicParsing="false" onAction="#searchOnclick" prefHeight="25.0" prefWidth="73.0" style="-fx-background-color: #dfe6e9;" text="Search" />
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>

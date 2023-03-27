@@ -1,0 +1,68 @@
+Remaining Fuel Stock is 6590 L
+Fuel Pump 1 -> 
+		1 -> 
+			No Customer
+		2 -> 
+			No Customer
+		3 -> 
+			No Customer
+		4 -> 
+			No Customer
+		5 -> 
+			No Customer
+		6 -> 
+			No Customer
+Fuel Pump 2 -> 
+		1 -> 
+			No Customer
+		2 -> 
+			No Customer
+		3 -> 
+			No Customer
+		4 -> 
+			No Customer
+		5 -> 
+			No Customer
+		6 -> 
+			No Customer
+Fuel Pump 3 -> 
+		1 -> 
+			No Customer
+		2 -> 
+			No Customer
+		3 -> 
+			No Customer
+		4 -> 
+			No Customer
+		5 -> 
+			No Customer
+		6 -> 
+			No Customer
+Fuel Pump 4 -> 
+		1 -> 
+			No Customer
+		2 -> 
+			No Customer
+		3 -> 
+			No Customer
+		4 -> 
+			No Customer
+		5 -> 
+			No Customer
+		6 -> 
+			No Customer
+Fuel Pump 5 -> 
+		1 -> 
+			No Customer
+		2 -> 
+			No Customer
+		3 -> 
+			No Customer
+		4 -> 
+			No Customer
+		5 -> 
+			No Customer
+		6 -> 
+			No Customer
+Waiting List -> 
+			Empty Queue
